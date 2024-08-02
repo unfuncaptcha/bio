@@ -47,13 +47,13 @@ TBioGenerator.generate(
 
 # table of contents
 
-- [usage]() (_most of this library is self explanitory_)
+- [usage](https://github.com/unfuncaptcha/bio/blob/main/docs/usage.md) (_most of this library is self explanitory_)
 
-  - [location data]()
+  - [location data](https://github.com/unfuncaptcha/bio/blob/main/docs/usage.md#location-and-the-locationdata-type)
 
-- [biometrics customization]()
+- [biometrics customization](https://github.com/unfuncaptcha/bio/blob/main/docs/customization.md)
 
-  - [the `Event` class]()
-  - [implementing a custom generator]()
+  - [the `Event` class](https://github.com/unfuncaptcha/bio/blob/main/docs/customization.md#the-event-class)
+  - [implementing a custom generator](https://github.com/unfuncaptcha/bio/blob/main/docs/customization.md#implementing-a-custom-generator)
 
-- [reverse engineering]()
+- [reverse engineering](https://github.com/unfuncaptcha/bio/blob/main/docs/reversing.md)
