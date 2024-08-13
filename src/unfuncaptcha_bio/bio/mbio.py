@@ -3,6 +3,7 @@ from typing import Tuple, List, Dict, Union
 from ..event import Event, SubEvent
 from random import randint
 from typing import Tuple
+import itertools
 
 
 class MouseEvent(Event):
@@ -131,10 +132,12 @@ class MBioGenerator(object):
                     [starting_point, location["right_arrow"]], 20, 1.5
                 )
             ],
-            *[
-                MouseEvent.generate_mouse_click_event(location["right_arrow"])
-                for _ in range(answer_index)
-            ],
+            *itertools.chain.from_iterable(
+                [
+                    MouseEvent.generate_mouse_click_event(location["right_arrow"])
+                    for _ in range(answer_index)
+                ]
+            ),
             *[
                 {
                     "event": MouseEvent("Move", coord),
