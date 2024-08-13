@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "unfuncaptcha_bio"
-version = "1.0.0"
+version = "1.0.1"
 authors = [{ name = "bc", email = "no@dont.email.me" }]
 description = " Generate mouse, touch, and keyboard motions for Arkose Labs Funcaptcha"
 readme = "README.md"
