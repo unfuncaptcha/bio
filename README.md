@@ -47,7 +47,7 @@ TBioGenerator.generate(
 
 # table of contents
 
-- [usage](https://github.com/unfuncaptcha/bio/blob/main/docs/usage.md) (_most of this library is self explanitory_)
+- [usage](https://github.com/unfuncaptcha/bio/blob/main/docs/usage.md) (_most of this library is self explanatory_)
 
   - [location data](https://github.com/unfuncaptcha/bio/blob/main/docs/usage.md#location-and-the-locationdata-type)
 
